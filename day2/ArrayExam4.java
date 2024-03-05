@@ -5,6 +5,13 @@ public class ArrayExam4 {
         // 배열 안의 숫자들의 합을 구해주세요.
 
         int[] arr = {10, 20, 30, 40, 50};
+        int sum = 0;
+            for (int i = 0; i < arr.length; i++) {
+                sum += arr[i];
+            }
+        System.out.println(sum);
+
+
 
 		/*
 		// 아래 4줄은 위 1줄과 같은 의미 입니다.

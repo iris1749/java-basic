@@ -15,21 +15,17 @@ public class LoopExam3 {
 
         현재 경기타임 time과 A팀의 득점 score가 주어질 때, 손흥민을 투입하면 A팀의 최종 득점은 몇 점인지 출력하시오.
         */
-
         int time = 74;
         int score = 0;
 
         //현재 시간은 모르고 골은 넣어야함.
         //골개수를 파악해야됨.
         //시간은 몰라도 계속 가야함.
-        //score =  (90 - time) / 5;
-        // 출력 : 4
 
-//        for(time; time < 90; time++) {
-//            if (time += 5) {
-//                score += 1
-//            }
-//        }
-//        System.out.println(score);
+        for (int i = time; i <= 90; i += 5) {
+            score++;
+        }
+
+        System.out.println(score);
     }
 }
