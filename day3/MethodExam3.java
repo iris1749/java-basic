@@ -17,5 +17,6 @@ public class MethodExam3 {
 //        Car.speed = 250;
 //        Car.run();
 //        // 출력 : 자동차가 최대속력 250km로 달립니다.
+        int a;
     }
 }
