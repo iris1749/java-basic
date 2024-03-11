@@ -1,3 +1,5 @@
+package day1;
+
 public class Main {
     // 자바 프로그램 시작과 종료 지점
     public static void main(String[] args) {
